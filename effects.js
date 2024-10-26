@@ -1,4 +1,4 @@
-import $ from "https://esm.sh/jquery";
+
 /*
 
   using 
@@ -7,6 +7,7 @@ import $ from "https://esm.sh/jquery";
     - color-dodge mix blend mode
   
 */
+$(document).ready(function() {
 var x;
 var $cards = $(".card");
 var $style = $(".hover");
@@ -64,3 +65,4 @@ $cards
       $card.addClass("animated");
     },2500);
   });
+ });
